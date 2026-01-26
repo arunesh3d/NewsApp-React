@@ -1,0 +1,9 @@
+## News App
+This is a News Based Application in React JS using class components which calls an external API from https://newsapi.org/ for latest news updates.
+
+### Installation :
+Install the required dependencies using npm:
+
+```bash
+npm install react-router-dom
+```
