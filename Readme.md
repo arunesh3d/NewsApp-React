@@ -7,3 +7,9 @@ Install the required dependencies using npm:
 ```bash
 npm install react-router-dom
 ```
+
+Used packages top-loading-bar from display loading progress at the top
+
+```bash
+npm install react-top-loading-bar
+```
