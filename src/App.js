@@ -48,8 +48,8 @@ export class App extends Component {
           <Route exact path="/technology" element={
             <News setProgress={this.setProgress} apiKey={this.apiKey} key="technology" pageSize={this.pageSize} country='us' category='technology' />
           } />
-          <Route exact path='/infinite' element={
-            <NewsScroll apiKey={this.apiKey} pageSize={this.pageSize} country='us' category='general' />
+          <Route exact path="/infinite" element={
+            <NewsScroll setProgress={this.setProgress} apiKey={this.apiKey} pageSize={this.pageSize} country='us' category='general' />
           } />
         </Routes>
       </BrowserRouter>

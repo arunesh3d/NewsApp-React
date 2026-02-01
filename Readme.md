@@ -8,8 +8,14 @@ Install the required dependencies using npm:
 npm install react-router-dom
 ```
 
-Used packages top-loading-bar from display loading progress at the top
+Used package react-top-loading-bar from display loading progress at the top
 
 ```bash
 npm install react-top-loading-bar
+```
+
+Used package react-infinite-scroll-component for Infinite Scrolling
+
+```bash
+npm i react-infinite-scroll-component
 ```
